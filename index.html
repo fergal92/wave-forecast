@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buoy Data Display</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        .buoy-container {
+            margin-bottom: 20px;
+        }
+
+        .buoy-header {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+
+        .buoy-info {
+            background-color: #f0f0f0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Real-Time Buoy Data for M6, M4, and M3</h1>
+
+    <div class="buoy-container">
+        <div class="buoy-header">M6 Buoy</div>
+        <div id="m6-info" class="buoy-info">Loading...</div>
+    </div>
+
+    <div class="buoy-container">
+        <div class="buoy-header">M4 Buoy</div>
+        <div id="m4-info" class="buoy-info">Loading...</div>
+    </div>
+
+    <div class="buoy-container">
+        <div class="buoy-header">M3 Buoy</div>
+        <div id="m3-info" class="buoy-info">Loading...</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
