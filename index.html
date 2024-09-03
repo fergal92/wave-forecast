@@ -5,49 +5,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Buoy Data Display</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-        }
-
-        .buoy-container {
-            margin-bottom: 20px;
-        }
-
-        .buoy-header {
-            font-size: 1.5em;
-            margin-bottom: 10px;
-        }
-
-        .buoy-info {
-            background-color: #f0f0f0;
-            padding: 10px;
-            border-radius: 5px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 
 <body>
+    <h1>Wave Forecast app</h1>
+        <div id="forecast-container">
+        <h2>Wave forecast data for M6, M4, and M3</h2>
+        <div id="wave-forecast-window" class="forecast-window">
+            
+                <div class="buoy-container">
+                    <div class="buoy-header">M6 Buoy</div>
+                    <div id="m6-info" class="buoy-info">Loading...</div>
+                </div>
 
-    <h1>Real-Time Buoy Data for M6, M4, and M3</h1>
+                <div class="buoy-container">
+                    <div class="buoy-header">M4 Buoy</div>
+                    <div id="m4-info" class="buoy-info">Loading...</div>
+                </div>
+
+                <div class="buoy-container">
+                    <div class="buoy-header">M3 Buoy</div>
+                    <div id="m3-info" class="buoy-info">Loading...</div>
+                </div>
+            
+        </div>
+    </div>
+    <h2>Up to date buoy information for M6, M4, and M3</h2>
 
     <div class="buoy-container">
         <div class="buoy-header">M6 Buoy</div>
-        <div id="m6-info" class="buoy-info">Loading...</div>
+        <div id="m6-latest-info" >Loading...</div>
     </div>
 
     <div class="buoy-container">
         <div class="buoy-header">M4 Buoy</div>
-        <div id="m4-info" class="buoy-info">Loading...</div>
+        <div id="m4-latest-info" >Loading...</div>
     </div>
 
     <div class="buoy-container">
         <div class="buoy-header">M3 Buoy</div>
-        <div id="m3-info" class="buoy-info">Loading...</div>
+        <div id="m3-latest-info" >Loading...</div>
     </div>
-
     <script src="script.js"></script>
+    <script src="scriptRealTime.js"></script>
+
 </body>
 
 </html>

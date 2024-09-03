@@ -1,9 +1,9 @@
 {
     "table": {
-      "columnNames": ["time", "longitude", "latitude", "stationID", "significant_wave_height", "mean_wave_period", "mean_wave_direction", "wave_power_per_unit_crest_length", "peak_period", "energy_period"],
-      "columnTypes": ["String", "float", "float", "String", "double", "double", "double", "double", "float", "float"],
-      "columnUnits": ["UTC", "degrees_east", "degrees_north", null, "m", "s", "degrees", "kW/m", "s", "s"],
-      "rows": [
+    "columnNames": ["time", "longitude", "latitude", "stationID", "significant_wave_height", "mean_wave_period", "mean_wave_direction", "wave_power_per_unit_crest_length", "peak_period", "energy_period"],
+    "columnTypes": ["String", "float", "float", "String", "double", "double", "double", "double", "float", "float"],
+    "columnUnits": ["UTC", "degrees_east", "degrees_north", null, "m", "s", "degrees", "kW/m", "s", "s"],
+    "rows": [
         ["2024-08-31T00:00:00Z", -9.7824, 52.54213, "Ballybunnion", 0.4621, 3.0364, 20.049, 0.5756898906318, 7.204, 5.502],
         ["2024-08-31T00:30:00Z", -9.7824, 52.54213, "Ballybunnion", 0.47027, 3.0137, 20.73, 0.597396764556329, 7.2067, 5.5128],
         ["2024-08-31T01:00:00Z", -9.7824, 52.54213, "Ballybunnion", 0.47738, 3.082, 21.114, 0.6197513813358001, 7.2074, 5.55],
